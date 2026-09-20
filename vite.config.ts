@@ -7,6 +7,7 @@ import { fileURLToPath, URL } from "node:url";
 // a later stage can point it at the backend (API + database) without touching
 // application code.
 export default defineConfig({
+  base:"/ArtSphereMarket/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
